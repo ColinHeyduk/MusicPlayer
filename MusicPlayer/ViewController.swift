@@ -20,7 +20,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         table.delegate = self
         table.dataSource = self
     }
-    
+    // hi colin. 
     func configureSongs() {
         songs.append(Song(name: "Blinding Lights",
                           albumName: "After Hours",
