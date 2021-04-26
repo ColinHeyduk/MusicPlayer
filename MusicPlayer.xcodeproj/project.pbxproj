@@ -10,9 +10,19 @@
 		A54FD37D25B72694002B9D09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54FD37C25B72694002B9D09 /* AppDelegate.swift */; };
 		A54FD37F25B72694002B9D09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54FD37E25B72694002B9D09 /* SceneDelegate.swift */; };
 		A54FD38125B72694002B9D09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54FD38025B72694002B9D09 /* ViewController.swift */; };
-		A54FD38425B72694002B9D09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54FD38225B72694002B9D09 /* Main.storyboard */; };
 		A54FD38625B72698002B9D09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54FD38525B72698002B9D09 /* Assets.xcassets */; };
 		A54FD38925B72698002B9D09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54FD38725B72698002B9D09 /* LaunchScreen.storyboard */; };
+		A54FD3A425BB19CE002B9D09 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A54FD3A125BB19CD002B9D09 /* song3.mp3 */; };
+		A54FD3A525BB19CE002B9D09 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A54FD3A225BB19CD002B9D09 /* song2.mp3 */; };
+		A54FD3A625BB19CE002B9D09 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A54FD3A325BB19CE002B9D09 /* song1.mp3 */; };
+		A5C4CFAA25BF8CD000250610 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C4CFA925BF8CD000250610 /* PlayerViewController.swift */; };
+		AF401CEC262A1450006DDBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54FD38225B72694002B9D09 /* Main.storyboard */; };
+		AF401CEE262A1610006DDBC5 /* IntroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF401CED262A1610006DDBC5 /* IntroPage.swift */; };
+		AF401CF0262DD59F006DDBC5 /* Getting In Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF401CEF262DD59F006DDBC5 /* Getting In Shape.swift */; };
+		AF401CF2262DD78F006DDBC5 /* Workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF401CF1262DD78F006DDBC5 /* Workouts.swift */; };
+		AF401CF4262DD7A4006DDBC5 /* Dieting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF401CF3262DD7A4006DDBC5 /* Dieting.swift */; };
+		AF401CF626305FAE006DDBC5 /* HomerWorkout.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF401CF526305FAD006DDBC5 /* HomerWorkout.gif */; };
+		AF401CFB26306192006DDBC5 /* 22H.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF401CFA26306192006DDBC5 /* 22H.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		A54FD38525B72698002B9D09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A54FD38825B72698002B9D09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A54FD38A25B72698002B9D09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A54FD3A125BB19CD002B9D09 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		A54FD3A225BB19CD002B9D09 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		A54FD3A325BB19CE002B9D09 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
+		A5C4CFA925BF8CD000250610 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		AF401CED262A1610006DDBC5 /* IntroPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPage.swift; sourceTree = "<group>"; };
+		AF401CEF262DD59F006DDBC5 /* Getting In Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Getting In Shape.swift"; sourceTree = "<group>"; };
+		AF401CF1262DD78F006DDBC5 /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
+		AF401CF3262DD7A4006DDBC5 /* Dieting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dieting.swift; sourceTree = "<group>"; };
+		AF401CF526305FAD006DDBC5 /* HomerWorkout.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HomerWorkout.gif; sourceTree = "<group>"; };
+		AF401CFA26306192006DDBC5 /* 22H.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 22H.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +76,33 @@
 		A54FD37B25B72694002B9D09 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				A54FD39025B877AB002B9D09 /* Audio */,
 				A54FD37C25B72694002B9D09 /* AppDelegate.swift */,
 				A54FD37E25B72694002B9D09 /* SceneDelegate.swift */,
 				A54FD38025B72694002B9D09 /* ViewController.swift */,
 				A54FD38225B72694002B9D09 /* Main.storyboard */,
+				AF401CF526305FAD006DDBC5 /* HomerWorkout.gif */,
+				AF401CFA26306192006DDBC5 /* 22H.gif */,
+				AF401CF3262DD7A4006DDBC5 /* Dieting.swift */,
+				AF401CF1262DD78F006DDBC5 /* Workouts.swift */,
+				AF401CEF262DD59F006DDBC5 /* Getting In Shape.swift */,
+				AF401CED262A1610006DDBC5 /* IntroPage.swift */,
 				A54FD38525B72698002B9D09 /* Assets.xcassets */,
 				A54FD38725B72698002B9D09 /* LaunchScreen.storyboard */,
 				A54FD38A25B72698002B9D09 /* Info.plist */,
+				A5C4CFA925BF8CD000250610 /* PlayerViewController.swift */,
 			);
 			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+		A54FD39025B877AB002B9D09 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A54FD3A325BB19CE002B9D09 /* song1.mp3 */,
+				A54FD3A225BB19CD002B9D09 /* song2.mp3 */,
+				A54FD3A125BB19CD002B9D09 /* song3.mp3 */,
+			);
+			path = Audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54FD38925B72698002B9D09 /* LaunchScreen.storyboard in Resources */,
+				AF401CF626305FAE006DDBC5 /* HomerWorkout.gif in Resources */,
+				A54FD3A625BB19CE002B9D09 /* song1.mp3 in Resources */,
+				A54FD3A425BB19CE002B9D09 /* song3.mp3 in Resources */,
+				AF401CEC262A1450006DDBC5 /* Main.storyboard in Resources */,
 				A54FD38625B72698002B9D09 /* Assets.xcassets in Resources */,
-				A54FD38425B72694002B9D09 /* Main.storyboard in Resources */,
+				A54FD3A525BB19CE002B9D09 /* song2.mp3 in Resources */,
+				AF401CFB26306192006DDBC5 /* 22H.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +182,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54FD38125B72694002B9D09 /* ViewController.swift in Sources */,
+				A5C4CFAA25BF8CD000250610 /* PlayerViewController.swift in Sources */,
+				AF401CEE262A1610006DDBC5 /* IntroPage.swift in Sources */,
+				AF401CF0262DD59F006DDBC5 /* Getting In Shape.swift in Sources */,
+				AF401CF4262DD7A4006DDBC5 /* Dieting.swift in Sources */,
 				A54FD37D25B72694002B9D09 /* AppDelegate.swift in Sources */,
 				A54FD37F25B72694002B9D09 /* SceneDelegate.swift in Sources */,
+				AF401CF2262DD78F006DDBC5 /* Workouts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
