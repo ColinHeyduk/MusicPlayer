@@ -23,6 +23,8 @@
 		AF401CF4262DD7A4006DDBC5 /* Dieting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF401CF3262DD7A4006DDBC5 /* Dieting.swift */; };
 		AF401CF626305FAE006DDBC5 /* HomerWorkout.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF401CF526305FAD006DDBC5 /* HomerWorkout.gif */; };
 		AF401CFB26306192006DDBC5 /* 22H.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF401CFA26306192006DDBC5 /* 22H.gif */; };
+		AF401CFD26399B63006DDBC5 /* AboutUserWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF401CFC26399B63006DDBC5 /* AboutUserWorkout.swift */; };
+		AF401CFF26399D51006DDBC5 /* AboutUserDieting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF401CFE26399D51006DDBC5 /* AboutUserDieting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		AF401CF3262DD7A4006DDBC5 /* Dieting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dieting.swift; sourceTree = "<group>"; };
 		AF401CF526305FAD006DDBC5 /* HomerWorkout.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = HomerWorkout.gif; sourceTree = "<group>"; };
 		AF401CFA26306192006DDBC5 /* 22H.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 22H.gif; sourceTree = "<group>"; };
+		AF401CFC26399B63006DDBC5 /* AboutUserWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUserWorkout.swift; sourceTree = "<group>"; };
+		AF401CFE26399D51006DDBC5 /* AboutUserDieting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUserDieting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				A54FD37E25B72694002B9D09 /* SceneDelegate.swift */,
 				A54FD38025B72694002B9D09 /* ViewController.swift */,
 				A54FD38225B72694002B9D09 /* Main.storyboard */,
+				AF401CFE26399D51006DDBC5 /* AboutUserDieting.swift */,
+				AF401CFC26399B63006DDBC5 /* AboutUserWorkout.swift */,
 				AF401CF526305FAD006DDBC5 /* HomerWorkout.gif */,
 				AF401CFA26306192006DDBC5 /* 22H.gif */,
 				AF401CF3262DD7A4006DDBC5 /* Dieting.swift */,
@@ -182,11 +188,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54FD38125B72694002B9D09 /* ViewController.swift in Sources */,
+				AF401CFF26399D51006DDBC5 /* AboutUserDieting.swift in Sources */,
 				A5C4CFAA25BF8CD000250610 /* PlayerViewController.swift in Sources */,
 				AF401CEE262A1610006DDBC5 /* IntroPage.swift in Sources */,
 				AF401CF0262DD59F006DDBC5 /* Getting In Shape.swift in Sources */,
 				AF401CF4262DD7A4006DDBC5 /* Dieting.swift in Sources */,
 				A54FD37D25B72694002B9D09 /* AppDelegate.swift in Sources */,
+				AF401CFD26399B63006DDBC5 /* AboutUserWorkout.swift in Sources */,
 				A54FD37F25B72694002B9D09 /* SceneDelegate.swift in Sources */,
 				AF401CF2262DD78F006DDBC5 /* Workouts.swift in Sources */,
 			);
