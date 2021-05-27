@@ -25,6 +25,9 @@
 		AF401CFB26306192006DDBC5 /* 22H.gif in Resources */ = {isa = PBXBuildFile; fileRef = AF401CFA26306192006DDBC5 /* 22H.gif */; };
 		AF401CFD26399B63006DDBC5 /* AboutUserWorkout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF401CFC26399B63006DDBC5 /* AboutUserWorkout.swift */; };
 		AF401CFF26399D51006DDBC5 /* AboutUserDieting.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF401CFE26399D51006DDBC5 /* AboutUserDieting.swift */; };
+		AFDFA3C8265FD49F00B2631B /* duffmangif.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA3C7265FD49F00B2631B /* duffmangif.gif */; };
+		AFDFA3CA265FD4A500B2631B /* simpsonsskinnygif.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA3C9265FD4A400B2631B /* simpsonsskinnygif.gif */; };
+		AFDFA3CC265FD5F800B2631B /* GifsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFA3CB265FD5F800B2631B /* GifsFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		AF401CFA26306192006DDBC5 /* 22H.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 22H.gif; sourceTree = "<group>"; };
 		AF401CFC26399B63006DDBC5 /* AboutUserWorkout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUserWorkout.swift; sourceTree = "<group>"; };
 		AF401CFE26399D51006DDBC5 /* AboutUserDieting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUserDieting.swift; sourceTree = "<group>"; };
+		AFDFA3C7265FD49F00B2631B /* duffmangif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = duffmangif.gif; sourceTree = "<group>"; };
+		AFDFA3C9265FD4A400B2631B /* simpsonsskinnygif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simpsonsskinnygif.gif; sourceTree = "<group>"; };
+		AFDFA3CB265FD5F800B2631B /* GifsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifsFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +91,11 @@
 				A54FD37E25B72694002B9D09 /* SceneDelegate.swift */,
 				A54FD38025B72694002B9D09 /* ViewController.swift */,
 				A54FD38225B72694002B9D09 /* Main.storyboard */,
+				AFDFA3CB265FD5F800B2631B /* GifsFile.swift */,
 				AF401CFE26399D51006DDBC5 /* AboutUserDieting.swift */,
 				AF401CFC26399B63006DDBC5 /* AboutUserWorkout.swift */,
+				AFDFA3C7265FD49F00B2631B /* duffmangif.gif */,
+				AFDFA3C9265FD4A400B2631B /* simpsonsskinnygif.gif */,
 				AF401CF526305FAD006DDBC5 /* HomerWorkout.gif */,
 				AF401CFA26306192006DDBC5 /* 22H.gif */,
 				AF401CF3262DD7A4006DDBC5 /* Dieting.swift */,
@@ -170,10 +179,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A54FD38925B72698002B9D09 /* LaunchScreen.storyboard in Resources */,
+				AFDFA3CA265FD4A500B2631B /* simpsonsskinnygif.gif in Resources */,
 				AF401CF626305FAE006DDBC5 /* HomerWorkout.gif in Resources */,
 				A54FD3A625BB19CE002B9D09 /* song1.mp3 in Resources */,
 				A54FD3A425BB19CE002B9D09 /* song3.mp3 in Resources */,
 				AF401CEC262A1450006DDBC5 /* Main.storyboard in Resources */,
+				AFDFA3C8265FD49F00B2631B /* duffmangif.gif in Resources */,
 				A54FD38625B72698002B9D09 /* Assets.xcassets in Resources */,
 				A54FD3A525BB19CE002B9D09 /* song2.mp3 in Resources */,
 				AF401CFB26306192006DDBC5 /* 22H.gif in Resources */,
@@ -197,6 +208,7 @@
 				AF401CFD26399B63006DDBC5 /* AboutUserWorkout.swift in Sources */,
 				A54FD37F25B72694002B9D09 /* SceneDelegate.swift in Sources */,
 				AF401CF2262DD78F006DDBC5 /* Workouts.swift in Sources */,
+				AFDFA3CC265FD5F800B2631B /* GifsFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
