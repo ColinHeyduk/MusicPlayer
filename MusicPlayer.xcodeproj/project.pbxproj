@@ -28,6 +28,7 @@
 		AFDFA3C8265FD49F00B2631B /* duffmangif.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA3C7265FD49F00B2631B /* duffmangif.gif */; };
 		AFDFA3CA265FD4A500B2631B /* simpsonsskinnygif.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA3C9265FD4A400B2631B /* simpsonsskinnygif.gif */; };
 		AFDFA3CC265FD5F800B2631B /* GifsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFA3CB265FD5F800B2631B /* GifsFile.swift */; };
+		AFDFA3CE266017FC00B2631B /* weightbenchcoachgif.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA3CD266017FC00B2631B /* weightbenchcoachgif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		AFDFA3C7265FD49F00B2631B /* duffmangif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = duffmangif.gif; sourceTree = "<group>"; };
 		AFDFA3C9265FD4A400B2631B /* simpsonsskinnygif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simpsonsskinnygif.gif; sourceTree = "<group>"; };
 		AFDFA3CB265FD5F800B2631B /* GifsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifsFile.swift; sourceTree = "<group>"; };
+		AFDFA3CD266017FC00B2631B /* weightbenchcoachgif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = weightbenchcoachgif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				AFDFA3C9265FD4A400B2631B /* simpsonsskinnygif.gif */,
 				AF401CF526305FAD006DDBC5 /* HomerWorkout.gif */,
 				AF401CFA26306192006DDBC5 /* 22H.gif */,
+				AFDFA3CD266017FC00B2631B /* weightbenchcoachgif.gif */,
 				AF401CF3262DD7A4006DDBC5 /* Dieting.swift */,
 				AF401CF1262DD78F006DDBC5 /* Workouts.swift */,
 				AF401CEF262DD59F006DDBC5 /* Getting In Shape.swift */,
@@ -187,6 +190,7 @@
 				AFDFA3C8265FD49F00B2631B /* duffmangif.gif in Resources */,
 				A54FD38625B72698002B9D09 /* Assets.xcassets in Resources */,
 				A54FD3A525BB19CE002B9D09 /* song2.mp3 in Resources */,
+				AFDFA3CE266017FC00B2631B /* weightbenchcoachgif.gif in Resources */,
 				AF401CFB26306192006DDBC5 /* 22H.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
