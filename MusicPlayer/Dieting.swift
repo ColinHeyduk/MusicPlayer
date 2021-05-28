@@ -15,6 +15,13 @@ class Dieting: UIViewController
     {
         
         super.viewDidLoad()
+        
+        let mistakeGif = UIImage.gifImageWithName("burnsMistake")
+        let imageView6 = UIImageView(image: mistakeGif)
+        imageView6.frame = CGRect(x: 32.0, y: 250.0, width: self.view.frame.size.width - 65, height: 280.0)
+        view.addSubview(imageView6)
+        
+        
     }
     
 

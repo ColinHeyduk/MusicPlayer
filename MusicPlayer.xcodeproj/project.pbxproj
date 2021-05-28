@@ -29,6 +29,9 @@
 		AFDFA3CA265FD4A500B2631B /* simpsonsskinnygif.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA3C9265FD4A400B2631B /* simpsonsskinnygif.gif */; };
 		AFDFA3CC265FD5F800B2631B /* GifsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFA3CB265FD5F800B2631B /* GifsFile.swift */; };
 		AFDFA3CE266017FC00B2631B /* weightbenchcoachgif.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA3CD266017FC00B2631B /* weightbenchcoachgif.gif */; };
+		AFDFA3D02661246400B2631B /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFA3CF2661246400B2631B /* Time.swift */; };
+		AFDFA3D22661277600B2631B /* homerDiet.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA3D12661277600B2631B /* homerDiet.gif */; };
+		AFDFA3D4266129A500B2631B /* burnsMistake.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA3D3266129A500B2631B /* burnsMistake.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		AFDFA3C9265FD4A400B2631B /* simpsonsskinnygif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simpsonsskinnygif.gif; sourceTree = "<group>"; };
 		AFDFA3CB265FD5F800B2631B /* GifsFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifsFile.swift; sourceTree = "<group>"; };
 		AFDFA3CD266017FC00B2631B /* weightbenchcoachgif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = weightbenchcoachgif.gif; sourceTree = "<group>"; };
+		AFDFA3CF2661246400B2631B /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
+		AFDFA3D12661277600B2631B /* homerDiet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = homerDiet.gif; sourceTree = "<group>"; };
+		AFDFA3D3266129A500B2631B /* burnsMistake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = burnsMistake.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,9 +99,12 @@
 				A54FD37E25B72694002B9D09 /* SceneDelegate.swift */,
 				A54FD38025B72694002B9D09 /* ViewController.swift */,
 				A54FD38225B72694002B9D09 /* Main.storyboard */,
+				AFDFA3CF2661246400B2631B /* Time.swift */,
 				AFDFA3CB265FD5F800B2631B /* GifsFile.swift */,
 				AF401CFE26399D51006DDBC5 /* AboutUserDieting.swift */,
 				AF401CFC26399B63006DDBC5 /* AboutUserWorkout.swift */,
+				AFDFA3D3266129A500B2631B /* burnsMistake.gif */,
+				AFDFA3D12661277600B2631B /* homerDiet.gif */,
 				AFDFA3C7265FD49F00B2631B /* duffmangif.gif */,
 				AFDFA3C9265FD4A400B2631B /* simpsonsskinnygif.gif */,
 				AF401CF526305FAD006DDBC5 /* HomerWorkout.gif */,
@@ -183,7 +192,9 @@
 			files = (
 				A54FD38925B72698002B9D09 /* LaunchScreen.storyboard in Resources */,
 				AFDFA3CA265FD4A500B2631B /* simpsonsskinnygif.gif in Resources */,
+				AFDFA3D22661277600B2631B /* homerDiet.gif in Resources */,
 				AF401CF626305FAE006DDBC5 /* HomerWorkout.gif in Resources */,
+				AFDFA3D4266129A500B2631B /* burnsMistake.gif in Resources */,
 				A54FD3A625BB19CE002B9D09 /* song1.mp3 in Resources */,
 				A54FD3A425BB19CE002B9D09 /* song3.mp3 in Resources */,
 				AF401CEC262A1450006DDBC5 /* Main.storyboard in Resources */,
@@ -202,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFDFA3D02661246400B2631B /* Time.swift in Sources */,
 				A54FD38125B72694002B9D09 /* ViewController.swift in Sources */,
 				AF401CFF26399D51006DDBC5 /* AboutUserDieting.swift in Sources */,
 				A5C4CFAA25BF8CD000250610 /* PlayerViewController.swift in Sources */,
