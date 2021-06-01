@@ -60,7 +60,7 @@
             <objects>
                 <viewController id="lGP-jn-1lD" customClass="AboutUserDieting" customModule="MusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uE2-Sw-4lj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DuP-mY-8br">
@@ -116,7 +116,7 @@
             <objects>
                 <viewController id="g4p-06-8l8" customClass="Dieting" customModule="MusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TU8-zI-kth">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rc0-gt-t4d">
@@ -174,6 +174,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ms0-0u-Qpu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2479.7101449275365" y="-599.33035714285711"/>
+        </scene>
+        <!--Slower Workouts-->
+        <scene sceneID="77z-dO-uBw">
+            <objects>
+                <viewController id="UVS-N5-6zZ" customClass="SlowerWorkouts" customModule="MusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="koZ-tS-ydg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="2pH-gG-eSB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="txS-Rp-MYB"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eQF-4a-Wj5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3293" y="-851"/>
         </scene>
         <!--About User Workout-->
         <scene sceneID="dgh-Su-Mhn">
@@ -456,6 +472,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="KoM-sw-jZi" kind="show" id="7JG-sF-W8w"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CTd-7s-l6U">
                                 <rect key="frame" x="39" y="524" width="336" height="72"/>
@@ -472,6 +491,9 @@
                                         </fragment>
                                     </attributedString>
                                 </state>
+                                <connections>
+                                    <segue destination="UVS-N5-6zZ" kind="show" id="SgQ-2H-s4C"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="tortoise" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="I27-ys-UMe">
                                 <rect key="frame" x="141" y="579.33333333333303" width="132" height="126"/>
@@ -487,6 +509,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IjV-MQ-KJe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2479.7101449275365" y="-1268.3035714285713"/>
+        </scene>
+        <!--Faster Workouts-->
+        <scene sceneID="CgC-Zn-xDq">
+            <objects>
+                <viewController id="KoM-sw-jZi" customClass="FasterWorkouts" customModule="MusicPlayer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="g20-xg-ic8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="M9B-4g-cEE">
+                                <rect key="frame" x="-76" y="211" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <viewLayoutGuide key="safeArea" id="8zh-FJ-RyU"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="VdX-Mo-78w"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HeQ-N6-H6h"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NwG-bN-a42" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3293" y="-1690"/>
         </scene>
         <!--Intro Page-->
         <scene sceneID="fui-gh-Pgt">
@@ -646,6 +692,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="jzs-aI-ldg"/>
-        <segue reference="CAk-O1-vDI"/>
+        <segue reference="tKe-T9-BHG"/>
     </inferredMetricsTieBreakers>
 </document>

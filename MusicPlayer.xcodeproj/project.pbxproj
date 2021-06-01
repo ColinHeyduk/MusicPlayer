@@ -32,6 +32,8 @@
 		AFDFA3D02661246400B2631B /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFA3CF2661246400B2631B /* Time.swift */; };
 		AFDFA3D22661277600B2631B /* homerDiet.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA3D12661277600B2631B /* homerDiet.gif */; };
 		AFDFA3D4266129A500B2631B /* burnsMistake.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA3D3266129A500B2631B /* burnsMistake.gif */; };
+		AFDFA3D626666F1800B2631B /* FasterWorkouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFA3D526666F1800B2631B /* FasterWorkouts.swift */; };
+		AFDFA3D826666F3100B2631B /* SlowerWorkouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFA3D726666F3100B2631B /* SlowerWorkouts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		AFDFA3CF2661246400B2631B /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 		AFDFA3D12661277600B2631B /* homerDiet.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = homerDiet.gif; sourceTree = "<group>"; };
 		AFDFA3D3266129A500B2631B /* burnsMistake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = burnsMistake.gif; sourceTree = "<group>"; };
+		AFDFA3D526666F1800B2631B /* FasterWorkouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasterWorkouts.swift; sourceTree = "<group>"; };
+		AFDFA3D726666F3100B2631B /* SlowerWorkouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowerWorkouts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				A54FD37E25B72694002B9D09 /* SceneDelegate.swift */,
 				A54FD38025B72694002B9D09 /* ViewController.swift */,
 				A54FD38225B72694002B9D09 /* Main.storyboard */,
+				AFDFA3D526666F1800B2631B /* FasterWorkouts.swift */,
+				AFDFA3D726666F3100B2631B /* SlowerWorkouts.swift */,
 				AFDFA3CF2661246400B2631B /* Time.swift */,
 				AFDFA3CB265FD5F800B2631B /* GifsFile.swift */,
 				AF401CFE26399D51006DDBC5 /* AboutUserDieting.swift */,
@@ -216,11 +222,13 @@
 				AFDFA3D02661246400B2631B /* Time.swift in Sources */,
 				A54FD38125B72694002B9D09 /* ViewController.swift in Sources */,
 				AF401CFF26399D51006DDBC5 /* AboutUserDieting.swift in Sources */,
+				AFDFA3D626666F1800B2631B /* FasterWorkouts.swift in Sources */,
 				A5C4CFAA25BF8CD000250610 /* PlayerViewController.swift in Sources */,
 				AF401CEE262A1610006DDBC5 /* IntroPage.swift in Sources */,
 				AF401CF0262DD59F006DDBC5 /* Getting In Shape.swift in Sources */,
 				AF401CF4262DD7A4006DDBC5 /* Dieting.swift in Sources */,
 				A54FD37D25B72694002B9D09 /* AppDelegate.swift in Sources */,
+				AFDFA3D826666F3100B2631B /* SlowerWorkouts.swift in Sources */,
 				AF401CFD26399B63006DDBC5 /* AboutUserWorkout.swift in Sources */,
 				A54FD37F25B72694002B9D09 /* SceneDelegate.swift in Sources */,
 				AF401CF2262DD78F006DDBC5 /* Workouts.swift in Sources */,
