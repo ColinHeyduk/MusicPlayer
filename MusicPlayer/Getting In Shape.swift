@@ -16,6 +16,11 @@ class Getting_In_Shape: UIViewController
         
         super.viewDidLoad()
 
+        let fade = UIImage.gifImageWithName("fade")
+        let imageView7 = UIImageView(image: fade)
+        imageView7.frame = CGRect(x: 32.0, y: 300.0, width: self.view.frame.size.width - 65, height: 280.0)
+        view.addSubview(imageView7)
+        
     }
     
     @IBAction func WorkoutButtonTapped(_ sender: UIButton)
