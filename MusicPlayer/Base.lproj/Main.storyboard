@@ -195,7 +195,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eQF-4a-Wj5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3292.753623188406" y="-851.11607142857144"/>
+            <point key="canvasLocation" x="3367" y="-756"/>
         </scene>
         <!--About User Workout-->
         <scene sceneID="dgh-Su-Mhn">
@@ -474,6 +474,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="upperBodyButton:" destination="oMS-oh-1yh" eventType="touchUpInside" id="rPe-gh-Tmv"/>
                                     <segue destination="Rcg-Gi-s5J" kind="show" id="CD4-3y-6RE"/>
                                 </connections>
                             </button>
@@ -493,6 +494,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
+                                    <action selector="lowerBodyButton:" destination="oMS-oh-1yh" eventType="touchUpInside" id="FtP-3r-Rjx"/>
                                     <segue destination="UVS-N5-6zZ" kind="show" id="SgQ-2H-s4C"/>
                                 </connections>
                             </button>
@@ -536,7 +538,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sd1-Bh-G2E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2479.7101449275365" y="-1943.3035714285713"/>
+            <point key="canvasLocation" x="3367" y="-2096"/>
         </scene>
         <!--Faster Workouts-->
         <scene sceneID="CgC-Zn-xDq">
@@ -558,7 +560,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NwG-bN-a42" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3292.753623188406" y="-1690.1785714285713"/>
+            <point key="canvasLocation" x="3367" y="-1436"/>
         </scene>
         <!--Intro Page-->
         <scene sceneID="fui-gh-Pgt">
