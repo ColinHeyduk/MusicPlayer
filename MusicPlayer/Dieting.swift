@@ -24,5 +24,11 @@ class Dieting: UIViewController
         
     }
     
+    
+    @IBAction func goBackButtonPressed(_ sender: UIButton) {
+        
+        navigationController?.popViewController(animated: true)
+    }
+    
 
 }

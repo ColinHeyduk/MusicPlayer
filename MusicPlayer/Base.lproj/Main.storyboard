@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2nN-mg-ff5">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2nN-mg-ff5">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -162,7 +162,7 @@
                                     </attributedString>
                                 </state>
                                 <connections>
-                                    <segue destination="lGP-jn-1lD" kind="show" id="CAk-O1-vDI"/>
+                                    <action selector="goBackButtonPressed:" destination="g4p-06-8l8" eventType="touchUpInside" id="hBL-FH-7xB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -692,6 +692,5 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="jzs-aI-ldg"/>
-        <segue reference="tKe-T9-BHG"/>
     </inferredMetricsTieBreakers>
 </document>
