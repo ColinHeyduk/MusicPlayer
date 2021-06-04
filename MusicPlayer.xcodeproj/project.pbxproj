@@ -34,6 +34,7 @@
 		AFDFA3D4266129A500B2631B /* burnsMistake.gif in Resources */ = {isa = PBXBuildFile; fileRef = AFDFA3D3266129A500B2631B /* burnsMistake.gif */; };
 		AFDFA3D626666F1800B2631B /* FasterWorkouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFA3D526666F1800B2631B /* FasterWorkouts.swift */; };
 		AFDFA3D826666F3100B2631B /* SlowerWorkouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFA3D726666F3100B2631B /* SlowerWorkouts.swift */; };
+		AFDFA3DA266A5E3900B2631B /* menUpperBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFDFA3D9266A5E3900B2631B /* menUpperBody.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		AFDFA3D3266129A500B2631B /* burnsMistake.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = burnsMistake.gif; sourceTree = "<group>"; };
 		AFDFA3D526666F1800B2631B /* FasterWorkouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasterWorkouts.swift; sourceTree = "<group>"; };
 		AFDFA3D726666F3100B2631B /* SlowerWorkouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowerWorkouts.swift; sourceTree = "<group>"; };
+		AFDFA3D9266A5E3900B2631B /* menUpperBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menUpperBody.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A54FD37E25B72694002B9D09 /* SceneDelegate.swift */,
 				A54FD38025B72694002B9D09 /* ViewController.swift */,
 				A54FD38225B72694002B9D09 /* Main.storyboard */,
+				AFDFA3D9266A5E3900B2631B /* menUpperBody.swift */,
 				AFDFA3D526666F1800B2631B /* FasterWorkouts.swift */,
 				AFDFA3D726666F3100B2631B /* SlowerWorkouts.swift */,
 				AFDFA3CF2661246400B2631B /* Time.swift */,
@@ -232,6 +235,7 @@
 				AF401CFD26399B63006DDBC5 /* AboutUserWorkout.swift in Sources */,
 				A54FD37F25B72694002B9D09 /* SceneDelegate.swift in Sources */,
 				AF401CF2262DD78F006DDBC5 /* Workouts.swift in Sources */,
+				AFDFA3DA266A5E3900B2631B /* menUpperBody.swift in Sources */,
 				AFDFA3CC265FD5F800B2631B /* GifsFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
