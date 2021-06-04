@@ -15,7 +15,10 @@ class AboutUserWorkout: UIViewController, UIPickerViewDelegate, UIPickerViewData
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return 1
+        return HeightPickerViewData.count
+    }
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return HeightPickerViewData[row]
     }
     
     @IBOutlet weak var WeightLabel: UILabel!
