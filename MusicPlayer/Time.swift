@@ -8,9 +8,13 @@
 
 import UIKit
 
-class Time: UIViewController {
-
-    override func viewDidLoad() {
+class Time: UIViewController
+{
+    
+    var gender = "male"
+    
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.

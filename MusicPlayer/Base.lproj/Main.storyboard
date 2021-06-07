@@ -231,7 +231,7 @@
                                     <color key="titleColor" red="0.15544920030000001" green="0.737735217" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="kcg-8Y-Ado" kind="show" id="bQV-71-4k7"/>
+                                    <segue destination="kcg-8Y-Ado" kind="show" identifier="nextSegue" id="bQV-71-4k7"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nGq-Qr-Nji">
@@ -273,7 +273,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="GENDER">
                                         <attributes>
-                                            <color key="NSColor" red="0.86656055504900553" green="0.0" blue="0.31487069175572768" alpha="0.87938784246575341" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="NSColor" red="1" green="0.0" blue="0.69569653269999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <font key="NSFont" metaFont="system" size="22"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -329,7 +329,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="WEIGHT">
                                         <attributes>
-                                            <color key="NSColor" red="1" green="0.0" blue="0.70226567979999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="NSColor" red="1" green="0.0" blue="0.66840946670000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             <font key="NSFont" metaFont="system" size="22"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -443,7 +443,7 @@
                                     <color key="titleColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="oMS-oh-1yh" kind="show" id="jzs-aI-ldg"/>
+                                    <segue destination="oMS-oh-1yh" kind="show" identifier="nextSegue1" id="jzs-aI-ldg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AVa-04-YTs">

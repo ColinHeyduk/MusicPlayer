@@ -11,6 +11,7 @@ import UIKit
 class Workouts: UIViewController
 {
 
+    var gender = "male"
     override func viewDidLoad()
     {
         
@@ -33,6 +34,14 @@ class Workouts: UIViewController
         
     }
     
-
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "nextSegue1"
+        {
+            let destinationVC = segue.destination as! Time
+            
+            
+            destinationVC.gender = gender
+        }
+    }
+    
 }
