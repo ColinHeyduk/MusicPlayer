@@ -492,7 +492,6 @@
                                 </state>
                                 <connections>
                                     <action selector="upperBodyButton:" destination="oMS-oh-1yh" eventType="touchUpInside" id="rPe-gh-Tmv"/>
-                                    <segue destination="Rcg-Gi-s5J" kind="show" id="CD4-3y-6RE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CTd-7s-l6U">
@@ -512,7 +511,6 @@
                                 </state>
                                 <connections>
                                     <action selector="lowerBodyButton:" destination="oMS-oh-1yh" eventType="touchUpInside" id="FtP-3r-Rjx"/>
-                                    <segue destination="UVS-N5-6zZ" kind="show" id="SgQ-2H-s4C"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="hare" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fE6-wM-Cbr">
@@ -530,6 +528,11 @@
                         <viewLayoutGuide key="safeArea" id="WCb-Og-iem"/>
                     </view>
                     <navigationItem key="navigationItem" id="wa0-vf-0nX"/>
+                    <connections>
+                        <segue destination="Rcg-Gi-s5J" kind="show" identifier="maleSegue" id="F5f-3U-gO7"/>
+                        <segue destination="VPb-E4-zrz" kind="show" identifier="femaleSegue" id="Q2k-g1-adS"/>
+                        <segue destination="UVS-N5-6zZ" kind="show" identifier="lowerSegue" id="obK-A4-kVT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IjV-MQ-KJe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -573,6 +576,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="vpJ-uC-U44"/>
                     </view>
+                    <navigationItem key="navigationItem" id="9GI-3k-8z5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZIq-Du-H1v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

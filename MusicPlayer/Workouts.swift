@@ -35,13 +35,10 @@ class Workouts: UIViewController
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "nextSegue1"
-        {
+//        if segue.identifier == "nextSegue1"
             let destinationVC = segue.destination as! Time
             
-            
             destinationVC.gender = gender
-        }
     }
     
 }
