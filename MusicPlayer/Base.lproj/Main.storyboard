@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gsY-02-lYD">
-                                <rect key="frame" x="149" y="243" width="122" height="39"/>
+                                <rect key="frame" x="146" y="243" width="122" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="WORKOUTS">
@@ -27,14 +27,8 @@
                                     <segue destination="TCb-1y-k6B" kind="show" id="x55-Z8-O2x"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJM-OA-rCF">
-                                <rect key="frame" x="170" y="559" width="84" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <state key="normal" title="DIETING"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Owi-4T-BAg">
-                                <rect key="frame" x="170" y="558" width="84" height="34"/>
+                                <rect key="frame" x="165" y="558" width="84" height="34"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="DIETING">
@@ -45,6 +39,14 @@
                                     <segue destination="lGP-jn-1lD" kind="show" id="tKe-T9-BHG"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="uiS-Eg-mSw">
+                                <rect key="frame" x="87" y="320" width="240" height="183"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="weight-loss-logo-bariatric-surgery-liposuction-text" translatesAutoresizingMaskIntoConstraints="NO" id="Lay-1U-IKm">
+                                <rect key="frame" x="68" y="559" width="278" height="303"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="CWf-5X-wfH"/>
@@ -738,8 +740,10 @@
         <image name="ant" catalog="system" width="52" height="64"/>
         <image name="arrowshape.turn.up.left" catalog="system" width="64" height="52"/>
         <image name="hare" catalog="system" width="64" height="46"/>
+        <image name="images" width="225" height="225"/>
         <image name="lowerworkout" width="1080" height="1080"/>
         <image name="men-upperbody-workout" width="930" height="1316"/>
+        <image name="weight-loss-logo-bariatric-surgery-liposuction-text" width="830" height="1118"/>
         <image name="women-upperbody-workout" width="564" height="1663"/>
     </resources>
     <inferredMetricsTieBreakers>
