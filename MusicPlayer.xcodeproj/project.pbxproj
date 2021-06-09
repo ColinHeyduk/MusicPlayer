@@ -16,6 +16,7 @@
 		A54FD3A525BB19CE002B9D09 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A54FD3A225BB19CD002B9D09 /* song2.mp3 */; };
 		A54FD3A625BB19CE002B9D09 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A54FD3A325BB19CE002B9D09 /* song1.mp3 */; };
 		A5C4CFAA25BF8CD000250610 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C4CFA925BF8CD000250610 /* PlayerViewController.swift */; };
+		AF1F5EDD2670F76800E73F3F /* menLowerBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF1F5EDC2670F76800E73F3F /* menLowerBody.swift */; };
 		AF401CEC262A1450006DDBC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A54FD38225B72694002B9D09 /* Main.storyboard */; };
 		AF401CEE262A1610006DDBC5 /* IntroPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF401CED262A1610006DDBC5 /* IntroPage.swift */; };
 		AF401CF0262DD59F006DDBC5 /* Getting In Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF401CEF262DD59F006DDBC5 /* Getting In Shape.swift */; };
@@ -51,6 +52,7 @@
 		A54FD3A225BB19CD002B9D09 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
 		A54FD3A325BB19CE002B9D09 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
 		A5C4CFA925BF8CD000250610 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		AF1F5EDC2670F76800E73F3F /* menLowerBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menLowerBody.swift; sourceTree = "<group>"; };
 		AF401CED262A1610006DDBC5 /* IntroPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroPage.swift; sourceTree = "<group>"; };
 		AF401CEF262DD59F006DDBC5 /* Getting In Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Getting In Shape.swift"; sourceTree = "<group>"; };
 		AF401CF1262DD78F006DDBC5 /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				A54FD37E25B72694002B9D09 /* SceneDelegate.swift */,
 				A54FD38025B72694002B9D09 /* ViewController.swift */,
 				A54FD38225B72694002B9D09 /* Main.storyboard */,
+				AF1F5EDC2670F76800E73F3F /* menLowerBody.swift */,
 				AFDFA3DB266A631900B2631B /* women-upperbody.swift */,
 				AFDFA3D9266A5E3900B2631B /* menUpperBody.swift */,
 				AFDFA3D526666F1800B2631B /* FasterWorkouts.swift */,
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFDFA3D02661246400B2631B /* Time.swift in Sources */,
+				AF1F5EDD2670F76800E73F3F /* menLowerBody.swift in Sources */,
 				A54FD38125B72694002B9D09 /* ViewController.swift in Sources */,
 				AF401CFF26399D51006DDBC5 /* AboutUserDieting.swift in Sources */,
 				AFDFA3D626666F1800B2631B /* FasterWorkouts.swift in Sources */,

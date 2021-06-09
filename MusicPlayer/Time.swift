@@ -34,7 +34,14 @@ class Time: UIViewController
     
     @IBAction func lowerBodyButton(_ sender: UIButton)
     {
-        performSegue(withIdentifier: "lowerSegue", sender: self)
+        if gender == "male"
+        {
+            performSegue(withIdentifier: "maleLowerSegue", sender: self)
+        }
+        else
+        {
+            performSegue(withIdentifier: "femaleLowerSegue", sender: self)
+        }
     }
     
     
